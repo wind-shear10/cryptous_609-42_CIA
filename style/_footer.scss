@@ -1,0 +1,110 @@
+.footer{
+    background: linear-gradient(to left, #4E0062, #220076);
+    padding: 81px 0 58px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    //gap: 141px;
+    @media (max-width: $breakpoint-md){
+        display: grid;
+        grid-template-columns: 160px 160px;
+        gap: 51px;
+        padding-left: 10px;
+    }
+}
+
+.footer__content-list{
+    h4{
+        font-family: "Inter", sans-serif;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    li{
+        padding-top: 20px;
+    }
+    a{
+        font-family: "Inter", sans-serif;
+        color: #E6E6E6;
+        line-height: 140.5%;
+        font-size: 17px;
+        font-weight: 200;
+    }
+}
+
+.footer__line{
+    @media (max-width: $breakpoint-xl){
+       width: 992px;
+    }
+    @media (max-width: $breakpoint-lg){
+       width: 768px;
+    }
+    @media (max-width: $breakpoint-md){
+        width: 100%;
+    }
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    align-items: center;
+    p{
+        color: #BCBCBC;
+        font-size: 14px;
+        line-height: auto;
+    }
+    @media (max-width: $breakpoint-xl){
+       justify-content: space-around;;
+    }
+     @media (max-width: $breakpoint-md){
+        flex-direction:column-reverse;
+    }
+}
+.footer__button{
+    display: flex;
+    justify-content: space-between;
+    gap: 17.4px;
+    @media (max-width: $breakpoint-md){
+        margin-bottom: 10px;
+    }
+    li{
+        border: 1px solid;
+        border-radius: 10px;
+    }
+    a{
+        display: inline-block;
+    }
+
+    #button-1{
+        a{
+            height: 13px;
+            width: 7px;
+        }
+        padding: 9px 12.56px;
+    }
+
+    #button-2{
+        background: #EB5757;
+        a{
+            height: 14px;
+            width: 12px;
+        }
+        padding: 10px 10px;
+    }
+    #button-3{
+        a{
+            width: 12px;
+            height: 13px;
+        }
+        padding: 10px 10px;
+    }
+    #button-4{
+        a{
+            height: 15px;
+        }
+        padding: 9px 8.7px;
+    }
+}

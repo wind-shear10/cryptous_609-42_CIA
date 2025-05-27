@@ -1,0 +1,85 @@
+.cta{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 92px;
+    @media (max-width: $breakpoint-xl){
+       justify-content: center;
+    }
+    img{
+        @media (max-width: $breakpoint-md){
+            display: none;
+        }
+    }
+    
+}
+
+.cta__content{
+    text-align: center;
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 14px;
+        @media (max-width: $breakpoint-lg) {
+            font-size: 40px;
+        }
+        @media (max-width: $breakpoint-md){
+            font-size: 24px;
+        }
+    }
+    p{
+        font-size: 24px;
+        margin-bottom: 50px;
+        letter-spacing: 1px;
+        @media (max-width: $breakpoint-md){
+            font-size: 14px;
+        }
+        @media (max-width: $breakpoint-md){
+            margin-bottom: 25px;
+        }
+    }
+}
+.cta__form{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 37px;
+    align-items: center;
+
+    @media (max-width: $breakpoint-md){
+        padding: 0;
+        margin-bottom: 80px;
+    }
+    button{
+        margin-right: 5px;
+        line-height: 24px;
+        border: none;
+        border-radius: 31px;
+        background-color: #EB5757;
+        padding: 19px 26.5px;
+        @media (max-width: $breakpoint-md){
+            padding: 13px 34px;
+        }
+    }
+    label{
+        width: 100%;
+    }
+}
+
+.cta__form-input{
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 28px 0 28px 21px;
+    @media (max-width: $breakpoint-md){
+        padding: 24px 0 24px 21px;
+    }
+    &::placeholder {
+            color: white;
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+}

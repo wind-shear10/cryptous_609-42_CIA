@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0 auto;
+  background: #1B004E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  @media (max-width: $breakpoint-xl){
+    max-width: 992px;
+  }
+
+  @media (max-width: $breakpoint-lg){
+    max-width: 768px;
+  }
+   @media (max-width: $breakpoint-md){
+    width: 100vw;
+  }
+
+}
+
+button {
+    padding: 0;
+    background: none;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    font-weight: 400;
+}
+
+li{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 17px;
+  letter-spacing: 0.3px;
+}
+
+h1{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  font-size: 60px;
+  font-weight: 700;
+   @media (max-width: $breakpoint-lg){
+    font-size: 40px;
+  }
+
+  @media (max-width: $breakpoint-md){
+    font-size: 24px;
+  }
+}
+
+h2{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  @media (max-width: $breakpoint-md){
+    font-size: 20px;
+  }
+}
+
+h3{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  line-height: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  @media (max-width: $breakpoint-md){
+    font-size: 18px;
+  }
+}
+
+h4{
+  color: black;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+p{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 18px;
+}
+
+button{
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  font-size: 17px;
+  line-height: 17px;
+}
