@@ -18,12 +18,12 @@ body {
 }
 @media (max-width: 1230px) {
   .container {
-    max-width: 992px;
+    max-width: 985px;
   }
 }
 @media (max-width: 992px) {
   .container {
-    max-width: 768px;
+    max-width: 765px;
   }
 }
 @media (max-width: 768px) {
@@ -302,6 +302,9 @@ header {
   .hero-content {
     margin-bottom: 15px;
   }
+}
+.hero-content img {
+  margin-top: 30px;
 }
 @media (max-width: 992px) {
   .hero-content img {
