@@ -240,6 +240,11 @@ header {
   background-position: center;
   height: 800px;
 }
+@media (max-width: 1440px) {
+  .header__wrap {
+    height: 700px;
+  }
+}
 @media (max-width: 1230px) {
   .header__wrap {
     width: 100vw;
