@@ -1,12 +1,17 @@
 .footer{
     background: linear-gradient(to left, #4E0062, #220076);
     padding: 81px 0 58px;
+    @media (max-width: $breakpoint-md){
+        padding-top: 28px;
+    }
+
 }
 
 .footer__content{
     display: flex;
     justify-content: space-between;
     //gap: 141px;
+    margin-bottom: 59px;
     @media (max-width: $breakpoint-md){
         display: grid;
         grid-template-columns: 160px 160px;
@@ -14,7 +19,7 @@
         padding-left: 10px;
     }
     @media (max-width: $breakpoint-xs){
-        grid-template-columns: 100px 100px;
+        grid-template-columns: 150px 150px;
     }
 }
 
@@ -26,7 +31,7 @@
         font-size: 18px;
     }
     li{
-        padding-top: 20px;
+        padding-top: 32px;
     }
     a{
         font-family: "Inter", sans-serif;
@@ -35,6 +40,7 @@
         font-size: 17px;
         font-weight: 200;
     }
+
 }
 
 .footer__line{

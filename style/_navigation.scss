@@ -7,14 +7,15 @@ header{
 .header__wrap{
     margin: 0;
     background-image: url("../img/bg.svg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    width: 1440px;
+    background-size: cover;
+   //background-repeat: no-repeat;
+    //background-repeat:repeat;
+    width: 100vw;
     background-position: center;
-    height: 700px;
-    @media (max-width: $breakpoint-xxl){
-       width: 1230px;
-    }
+    height: 800px;
+    //@media (max-width: $breakpoint-xxl){
+      // width: 1230px;
+  //  }
     @media (max-width: $breakpoint-xl){
        width: 100vw;
     }

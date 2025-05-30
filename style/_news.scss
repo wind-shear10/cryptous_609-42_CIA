@@ -8,7 +8,15 @@
         line-height: 32px;
         padding-bottom: 46px;
         text-align: center;
+        @media (max-width: $breakpoint-md){
+            font-size: 32px;
+        }
     }
+    @media (max-width: $breakpoint-md){
+       padding-top: 40px;
+       padding-bottom: 40px;
+    }
+
 }
 
 .news__cards{
@@ -21,12 +29,15 @@
         gap: 10px;
         justify-content: center;
     }
+    @media (max-width: $breakpoint-md){
+       gap: 40px;
+    }
 }
 
 .news__card-information{
     width: 368px;
     border-radius: 9px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 8px 0 rgba(203, 203, 203, 0.25);
     article{
         padding: 24px 19px;
     }
