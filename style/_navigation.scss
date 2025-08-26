@@ -12,7 +12,7 @@ header{
     //background-repeat:repeat;
     width: 100vw;
     background-position: center;
-    height: 800px;
+    height: 860px;
     @media (max-width: $breakpoint-xxl){
         height: 700px;
     }
@@ -62,6 +62,13 @@ header{
         border-radius: 50px;
         width: 152px;
         height: 47px;
+        
+
+    }
+
+    button:hover{
+        background-color: #EB5757;
+        transition: all .2s linear;
     }
 }
 
@@ -110,6 +117,10 @@ header{
         border-radius: 50px;
         background: #EB5757;
         padding: 15px 30px;
+    }
+    button:hover{
+        transform: scale(1.1);
+        transition: 200ms;
     }
 }
 
